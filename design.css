@@ -1,0 +1,159 @@
+.page
+{
+
+width:1200px;
+height:1000px;
+border-style:1px solid;
+
+
+}
+
+.header
+{
+width:1200px;
+height:300px;
+border-style:solid;
+text-align: center;
+color: rgb(0, 255, 55);
+background-image:url('b.jpg') ;
+background-size: 100%;
+
+}
+
+.linkspart
+{
+width:1200px;
+height:40px;
+border-style:groove;
+margin-top:20px;
+background-color:rgb(30, 184, 38);
+text-align: center;
+
+}
+
+.linkspart a
+{
+color:rgba(166, 199, 20, 0.459);
+text-decoration:none;
+
+
+}
+
+.linkspart a:hover
+{
+background-color:rgb(33, 184, 121);
+color:rgb(228, 15, 15)
+
+}
+.bodypart
+{
+width:1200px;
+height:650px;
+border-style:1px solid;
+margin-top:40px;
+
+}
+ 
+.bodypart .imagepart
+{
+width:580px;
+height: 500px;
+border-style:1px solid;
+background-image:url('a.jpg');
+display:inline-block;
+padding: 50px;
+text-align: center;
+
+
+
+}
+.bodypart .newspart
+{
+width:500px;
+height:580px;
+border-style:solid;
+float:left;
+background-image: url('d.jpg');
+background-position: top;
+background-size: 100%;
+
+}
+
+.bodypart .newspart h2
+{
+color:rgba(250, 8, 8, 0.959);
+margin-left:170px;
+
+}
+
+.bodypart .newspart .news
+{
+width:490px;
+height:700px;
+
+
+
+
+
+}
+.bodypart .newspart .news h4
+{
+color:rgb(182, 255, 10);
+
+}
+.bodypart h6
+{
+color:rgb(250, 8, 197);
+text-align:center;
+
+
+
+}
+.footerpart
+{
+width:1200px;
+height:100px;
+border-style:groove;
+margin-top:2px;
+text-align: center;
+padding-top: 2%;
+background-image: url("e.jpg");
+background-size: 100%;
+}
+
+
+
+
+.dropbtn {  
+    background-color:white;  
+    color: black;  
+    padding: 10px;  
+    font-size: 12px;  
+}  
+.dropdown {  
+    display: inline-block;  
+    position: relative  
+}  
+.dropdown-content {  
+    position: absolute;  
+    background-color: green;  
+    min-width: 200px;  
+    display: none;  
+    z-index: 1;  
+}  
+.dropdown-content a {  
+    color: black;  
+    padding: 12px 16px;  
+    text-decoration: none;  
+    display: block;  
+}  
+.dropdown-content a:hover {  
+    background-color:brown;  
+}  
+.dropdown:hover .dropdown-content {  
+    display: block;  
+}  
+.dropdown:hover .dropbtn {  
+    background-color: green;  
+}  
+
